@@ -38,3 +38,6 @@ out/
 
 ### Kotlin ###
 .kotlin
+
+### Docker ###
+docker/dynamodb/shared-local-instance.db

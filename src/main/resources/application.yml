@@ -4,7 +4,7 @@ spring:
 
 aws:
   dynamodb:
-    url: "http://localhost:8080"
+    url: "http://localhost:8000"
     schemas:
       user:
         table-name: "tb_user"

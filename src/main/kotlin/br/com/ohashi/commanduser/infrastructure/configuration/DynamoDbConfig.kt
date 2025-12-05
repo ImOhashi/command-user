@@ -14,7 +14,7 @@ import java.net.URI
 @Configuration
 class DynamoDbConfig(
     @Value("\${aws.dynamodb.url}") private val dynamoDbUrl: String,
-    @Value("\${aws.dynamodb.schemas.user.table-name}") private val userTableName: String
+    @Value("\${aws.dynamodb.schemas.user.table-name}") private val userTableName: String,
 ) {
 
     @Bean
