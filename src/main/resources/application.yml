@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: command-user
+
+aws:
+  dynamodb:
+    url: "http://localhost:8080"
+    schemas:
+      user:
+        table-name: "tb_user"
